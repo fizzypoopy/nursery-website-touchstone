@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bloom Valley Nursery - Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harvest Bakery - About Us</title>
+    <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/9061cffb30.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="header-bar">
+      <header id="header-logo">
+        <img src="images/logo.png" alt="logo" />
+        <h1>Bloom Valley Nursery</h1>
+      </header>
+
+      <nav id="fullmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="community.html">Community</a></li>
+        </ul>
+      </nav>
+
+      <nav id="burgermenu">
+        <label for="burger-select" id="burger-label">
+          <input type="checkbox" id="burger-select" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="2.0em"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </label>
+
+        <ul id="burgermenulinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="community.html">Community</a></li>
+        </ul>
+      </nav>
+    </section>
+    <hr />
+
+    <main>
+      <h2>Shop Gallery</h2>
+
+      <div id="cartmenu">
+        <label for="cart-select" id="cart-label" class="linked-button border">
+          <input type="checkbox" id="cart-select" />
+          <i class="fa-solid fa-cart-shopping"> View Cart</i>
+        </label>
+
+        <div id="cart" class="border">
+          <div id="cart-table"><p class="center-text"></p></div>
+          <div id="clear-cart-button" class="gray-button border">
+            Clear Cart
+          </div>
+          <div id="process-order-button" class="linked-button border">
+            Process Order
+          </div>
+        </div>
+      </div>
+
+      <section id="gallery-images">
+        <table id="gallery-table">
+          <tr>
+            <td class="gallery-item border" id="item-aloe">
+              <img src="images/Client1_AloePlant.png" alt="aloe plant" />
+              <p class="bold">Aloe vera plant</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div
+                class="linked-button border addItem"
+                data-item="Aloe Vera Plant"
+              >
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+
+            <td class="gallery-item border" id="item-apple">
+              <img src="images/Client1_AppleTree.png" alt="apple tree" />
+              <p class="bold">Apple tree</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="linked-button border addItem" data-item="Apple Tree">
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+
+            <td class="gallery-item border" id="item-birch">
+              <img src="images/Client1_BirchTree.png" alt="birch tree" />
+              <p class="bold">Birch Tree</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="linked-button border addItem" data-item="Birch Tree">
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="gallery-item border" id="item-birdhouse">
+              <img src="images/Client1_BirdHouse.png" alt="birdhouse" />
+              <p class="bold">Birdhouse</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="linked-button border addItem" data-item="Birdhouse">
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+
+            <td class="gallery-item border" id="item-maple">
+              <img src="images/Client1_MapleTree.png" alt="maple tree" />
+              <p class="bold">Maple tree</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div class="linked-button border addItem" data-item="Maple Tree">
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+
+            <td class="gallery-item border" id="item-soil">
+              <img src="https://i.imgur.com/hBCn0ef.png" alt="potting soil" />
+              <p class="bold">Potting soil</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div
+                class="linked-button border addItem"
+                data-item="Potting Soil"
+              >
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="gallery-item border" id="item-spider">
+              <img src="https://i.imgur.com/UUPfJfq.png" alt="spider plant" />
+              <p class="bold">Spider plant</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div
+                class="linked-button border addItem"
+                data-item="Spider Plant"
+              >
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+
+            <td class="gallery-item border" id="item-string">
+              <img
+                src="https://i.imgur.com/pF5dj1y.png"
+                alt="string of pearls plant"
+              />
+              <p class="bold">String of pearls plant</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div
+                class="linked-button border addItem"
+                data-item="String of Pearls Plant"
+              >
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+
+            <td class="gallery-item border" id="item-water">
+              <img src="https://i.imgur.com/0sCBB3j.png" alt="watering can" />
+              <p class="bold">Watering can</p>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <div
+                class="linked-button border addItem"
+                data-item="Watering Can"
+              >
+                <i class="fa-solid fa-cart-plus"> Add to Cart</i>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+
+      <section id="footer-top">
+        <form id="newsletterForm">
+          Subscribe to Newsletter
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input
+            id="subSubmit"
+            class="submit-button"
+            type="submit"
+            value="Subscribe"
+          />
+        </form>
+
+        <section id="socials">
+          <div><i class="fa-brands fa-facebook"></i></div>
+          <div><i class="fa-brands fa-instagram"></i></div>
+          <div><i class="fa-brands fa-twitter"></i></div>
+          <div><i class="fa-brands fa-youtube"></i></div>
+          <div><i class="fa-brands fa-pinterest"></i></div>
+        </section>
+      </section>
+      <hr />
+
+      <section id="footer-bottom">
+        <section id="address">
+          <p class="bold">Address</p>
+          <div>
+            123 Lorem Ips Rd,<br />
+            Dolorsit Ametorus,<br />
+            US 12345
+          </div>
+        </section>
+
+        <section id="schedule">
+          <p class="bold">Schedule</p>
+          <div>
+            <span class="underline">Monday–Friday:</span><br />
+            9 a.m. to 6 p.m. <br />
+            <span class="underline">Saturday–Sunday:</span><br />
+            10 a.m. to 5 p.m.
+          </div>
+        </section>
+
+        <section id="directory">
+          <p class="bold">Directory</p>
+          <div><a href="index.html">Home</a></div>
+          <div><a href="about.html">About</a></div>
+          <div><a href="gallery.html">Gallery</a></div>
+          <div><a href="community.html">Community</a></div>
+        </section>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

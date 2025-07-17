@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bloom Valley Nursery - About Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harvest Bakery - About Us</title>
+    <link href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/9061cffb30.js"
+      crossorigin="anonymous"
+  ></script>
+  </head>
+
+  <body>
+  <section id="header-bar">
+  <header id="header-logo">
+    <img src="images/logo.png" alt="logo" />
+    <h1>Bloom Valley Nursery</h1>
+  </header>
+
+  <nav id="fullmenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="community.html">Community</a></li>
+    </ul>
+  </nav>
+
+  <nav id="burgermenu">
+    <label for="burger-select" id="burger-label">
+      <input type="checkbox" id="burger-select" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="2.0em"
+        viewBox="0 0 448 512"
+      >
+        <path
+          d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+        />
+      </svg>
+    </label>
+
+    <ul id="burgermenulinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="community.html">Community</a></li>
+    </ul>
+  </nav>
+</section>
+<hr />
+
+    <main>
+      <h1>Our Story.</h1>
+      <p>
+        Bloom Valley Nursery operates as a local, family-owned plant nursery in the area, specializing in the sale of a wide variety of plants, trees, and gardening supplies. It aims to connect with gardening enthusiasts and homeowners in the community who share a passion for horticulture. While the client does not have an existing website, it envisions a digital presence that reflects the natural beauty of its plant nursery and resonates with gardening enthusiasts in the local community. As the client focuses on sustainability and creativity in its operations, the primary goal of the website is to enhance visibility in the local market, foster community engagement, and facilitate customer inquiries and orders. Its target audience comprises local gardening enthusiasts and homeowners seeking high-quality plants and gardening supplies.
+      </p>
+
+      <h2>Shop Schedule</h2>
+      <table id="hours">
+      <tr>
+        <th colspan="3">Hours of Operations</th>
+      </tr>
+      <tr>
+        <th>Days</th>
+        <th>Open</th>
+        <th>Close</th>
+      </tr>
+      <tr>
+        <td>Mon - Fri</td>
+        <td>9 am</td>
+        <td>6 pm</td>
+      </tr>
+      <tr>
+        <td>Sat - Sun</td>
+        <td>10 am</td>
+        <td>5 pm</td>
+      </tr>
+    </table>
+
+      <h2>Contact Us</h2>
+      <form action="" method="POST" id="contactusform">
+
+        <label>Name:<br>
+          <input id="formName" type="text" name="fname" placeholder="Your Name" required></input>
+        </label><br><br>
+        <label>Phone:<br>
+          <input id="formTel" type="tel" name="phone" placeholder="Your Phone Number"></input>
+        </label><br><br>
+        <label>Email:<br>
+          <input id="formEmail" type="email" name="email" placeholder="Your Email Address" required></input>
+        </label><br><br>
+
+        <label>Reason for communication:
+          <select id="formSelect" name="commenttype">
+                <optgroup label="Feedback">
+                        <option value="comment">Comment</option>
+                        <option value="compliment">Compliment</option>
+                        <option value="complaint">Complaint</option>
+                </optgroup>
+                <optgroup label="Request">
+                        <option value="custom order">Custom Order</option>
+                        <option value="suggestion">Suggestion</option>
+                </optgroup>
+          </select>
+        </label><br><br>
+
+        <label>Feedback/Order Information: <br>
+          <textarea id="formFeedbackText" name="comment" rows="7" cols="30" placeholder="Your Feedback/Custom Order Information" required></textarea>
+        </label><br>
+
+        <input id="feedbackSubmit" class="submit-button" type="submit" value="Submit">
+        <input class="clear-button" type="reset" value="Clear">
+      </form>
+    </main>
+
+    <footer>
+      <hr />
+
+      <section id="footer-top">
+        <form id="newsletterForm">
+          Subscribe to Newsletter
+          <input type="email" name="email" placeholder="Enter your email" required/>
+          <input id="subSubmit" class="submit-button" type="submit" value="Subscribe"/>
+        </form>
+
+        <section id="socials">
+          <div><i class="fa-brands fa-facebook"></i></div>
+          <div><i class="fa-brands fa-instagram"></i></div>
+          <div><i class="fa-brands fa-twitter"></i></div>
+          <div><i class="fa-brands fa-youtube"></i></div>
+          <div><i class="fa-brands fa-pinterest"></i></div>
+        </section>
+      </section>
+      <hr />
+
+      <section id="footer-bottom">
+        <section id="address">
+          <p class="bold">Address</p>
+          <div>
+            123 Lorem Ips Rd,<br />
+            Dolorsit Ametorus,<br />
+            US 12345
+          </div>
+        </section>
+
+        <section id="schedule">
+          <p class="bold">Schedule</p>
+          <div>
+            <span class="underline">Monday–Friday:</span><br />
+            9 a.m. to 6 p.m. <br />
+            <span class="underline">Saturday–Sunday:</span><br />
+            10 a.m. to 5 p.m.
+          </div>
+        </section>
+
+        <section id="directory">
+        <p class="bold">Directory</p>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="about.html">About</a></div>
+        <div><a href="gallery.html">Gallery</a></div>
+        <div><a href="community.html">Community</a></div>
+      </section>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
